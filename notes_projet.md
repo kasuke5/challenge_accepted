@@ -4,10 +4,10 @@
 récup la clé ssh au format .pem (chmod 400 je crois)
 `ssh -i /home/flo/Téléchargements/Essai.pem ubuntu@ec2-54-194-185-113.eu-west-1.compute.amazonaws.com`
 
-charte : methode travail, save, reunion, nomenclature etc...
-spec : ce que veux le client, mission, objectifs (de la mission  4 5 6 SMART), fonctionnalités
-planning : fcontionnalités en taches.
-script terraform + script ansibe de test pour it1
++ charte : methode travail, save, reunion, nomenclature etc...
++ spec : ce que veux le client, mission, objectifs (de la mission  4 5 6 SMART), fonctionnalités
++ planning : fcontionnalités en taches.
++ script terraform + script ansibe de test pour it1
 
 
 + comment acceder aux machine avec config pété
