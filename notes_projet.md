@@ -52,18 +52,24 @@ Creation d'infrastructure en ligne pour chaque chapitre des cours réseaux d'ope
 
 
 *faire tuto ajout de machine AWS via terraform*
+
 ---
-# tâches à réaliser :
+# tâches à réaliser avant IT2:
 
 * Pour la charte :
   * sauvegarde (à quelle fréquence)
   * nomenclature (nommage des fichiers)
   * planning à faire
+
+
 * Pour les specs :
   * Mission à retoucher
   * Objectifs à SMARTER
   * Details sur la machine de supervision (machine fantome)
+  * Comment on se connecte aux différentes machines
+
 
 * Voir de quoi l'utilisateur a besoin pour se connecter aux machines
 * Savoir comment gérer la destruction de machine et/ou d'infrastructure (comment identifier celle qui faut destroy)
-*
+* Faire serveur web
+* Premiere maquette du site
