@@ -30,7 +30,7 @@ récup la clé ssh au format .pem (chmod 400 je crois)
 Objectif :
 Créer des machines virtuelles avec des configurations réseau corrompu et le but est de résoudre les différents problèmes pour avoir une/des machine avec un réseau fonctionnel
 
-Automatisation de création de machines virtuelles en ligne pour chaque chapitre des cours réseaux d'openclassroom.
+Creation d'infrastructure en ligne pour chaque chapitre des cours réseaux d'openclassroom.
 
 # Fonctionnalités
 
@@ -52,3 +52,18 @@ Automatisation de création de machines virtuelles en ligne pour chaque chapitre
 
 
 *faire tuto ajout de machine AWS via terraform*
+---
+# tâches à réaliser :
+
+* Pour la charte :
+  * sauvegarde (à quelle fréquence)
+  * nomenclature (nommage des fichiers)
+  * planning à faire
+* Pour les specs :
+  * Mission à retoucher
+  * Objectifs à SMARTER
+  * Details sur la machine de supervision (machine fantome)
+
+* Voir de quoi l'utilisateur a besoin pour se connecter aux machines
+* Savoir comment gérer la destruction de machine et/ou d'infrastructure (comment identifier celle qui faut destroy)
+*
