@@ -71,5 +71,15 @@ Creation d'infrastructure en ligne pour chaque chapitre des cours réseaux d'ope
 
 * Voir de quoi l'utilisateur a besoin pour se connecter aux machines
 * Savoir comment gérer la destruction de machine et/ou d'infrastructure (comment identifier celle qui faut destroy)
-* Faire serveur web
-* Premiere maquette du site
+* ~~Faire serveur web~~
+* Premiere maquette du site (trouver un theme bootstrap)
+* Faire infrastructure avec au moins 2 machines avec terraform
+* Avoir une liste des TP (demander à eric)
+
+* Liste des truc a installer pour les users/tache ansible :
+  * Utilisateur (eleve) avec mdp par defaut (eleve)
+  * vim
+  * php 7 ?
+  * nginx sans config il se demerde apres
+  * postfix sans config
+  * djbdns sans config
