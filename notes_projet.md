@@ -69,7 +69,7 @@ Creation d'infrastructure en ligne pour chaque chapitre des cours réseaux d'ope
   * Comment on se connecte aux différentes machines
 
 
-* Voir de quoi l'utilisateur a besoin pour se connecter aux machines
+* ~~Voir de quoi l'utilisateur a besoin pour se connecter aux machines~~ adresse ip de la machine qu'on recupere izi, et log par defaut eleve:eleve 
 * ~~Savoir comment gérer la destruction de machine et/ou d'infrastructure (comment identifier celle qui faut destroy)~~ des dossiers seront créés à chaque terraform plan il suffira d'aller dessus et de faire `terraform destroy` ou `terraform plan -destroy`
 * ~~Faire serveur web~~
 * Premiere maquette du site (trouver un theme bootstrap)
