@@ -57,8 +57,8 @@ Creation d'infrastructure en ligne pour chaque chapitre des cours réseaux d'ope
 # tâches à réaliser avant IT2:
 
 * Pour la charte :
-  * sauvegarde (à quelle fréquence)
-  * nomenclature (nommage des fichiers)
+  * ~~sauvegarde (à quelle fréquence)~~
+  * ~~nomenclature (nommage des fichiers)~~
   * planning à faire
 
 
@@ -70,7 +70,7 @@ Creation d'infrastructure en ligne pour chaque chapitre des cours réseaux d'ope
 
 
 * Voir de quoi l'utilisateur a besoin pour se connecter aux machines
-* Savoir comment gérer la destruction de machine et/ou d'infrastructure (comment identifier celle qui faut destroy)
+* ~~Savoir comment gérer la destruction de machine et/ou d'infrastructure (comment identifier celle qui faut destroy)~~ des dossiers seront créés à chaque terraform plan il suffira d'aller dessus et de faire `terraform destroy` ou `terraform plan -destroy`
 * ~~Faire serveur web~~
 * Premiere maquette du site (trouver un theme bootstrap)
 * Faire infrastructure avec au moins 2 machines avec terraform
