@@ -74,7 +74,10 @@ Creation d'infrastructure en ligne pour chaque chapitre des cours réseaux d'ope
 * ~~Faire serveur web~~
 * ~~Premiere maquette du site (trouver un theme bootstrap)~~
 * ~~Faire infrastructure avec au moins 2 machines avec terraform~~
+* ~~BDD~~
+* ~~Connexion/ Inscription~~
 * Avoir une liste des TP (demander à eric)
+* Faire machine de supervision (pour savoir si l'exo a été réussi)
 
 * Liste des truc a installer pour les users/tache ansible :
   * Ajouter utilisateur (eleve) avec mdp par defaut (eleve)
