@@ -69,17 +69,16 @@ Creation d'infrastructure en ligne pour chaque chapitre des cours réseaux d'ope
   * Comment on se connecte aux différentes machines
 
 
-* ~~Voir de quoi l'utilisateur a besoin pour se connecter aux machines~~ adresse ip de la machine qu'on recupere izi, et log par defaut eleve:eleve 
+* ~~Voir de quoi l'utilisateur a besoin pour se connecter aux machines~~ adresse ip de la machine qu'on recupere izi, et log par defaut eleve:eleve
 * ~~Savoir comment gérer la destruction de machine et/ou d'infrastructure (comment identifier celle qui faut destroy)~~ des dossiers seront créés à chaque terraform plan il suffira d'aller dessus et de faire `terraform destroy` ou `terraform plan -destroy`
 * ~~Faire serveur web~~
-* Premiere maquette du site (trouver un theme bootstrap)
-* Faire infrastructure avec au moins 2 machines avec terraform
+* ~~Premiere maquette du site (trouver un theme bootstrap)~~
+* ~~Faire infrastructure avec au moins 2 machines avec terraform~~
 * Avoir une liste des TP (demander à eric)
 
 * Liste des truc a installer pour les users/tache ansible :
-  * Utilisateur (eleve) avec mdp par defaut (eleve)
+  * Ajouter utilisateur (eleve) avec mdp par defaut (eleve)
   * vim
-  * php 7 ?
-  * nginx sans config il se demerde apres
-  * postfix sans config
-  * djbdns sans config
+  * Aller dans `/etc/ssh/ssh_config` et décommenter la ligne 25 ou ajouter ligne `PasswordAuthentication yes
+`
+  * Créer plusieurs interfaces réseaux et leur attribué une adresse + mask
