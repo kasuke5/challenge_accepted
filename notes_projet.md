@@ -76,12 +76,12 @@ Creation d'infrastructure en ligne pour chaque chapitre des cours réseaux d'ope
 * ~~Faire infrastructure avec au moins 2 machines avec terraform~~
 * ~~BDD~~
 * ~~Connexion/ Inscription~~
-* Avoir une liste des TP (demander à eric)
+* Avoir une liste des TP (demander à eric) Faire 3 machines, chacun son réseau, elle passe toutes par un routeur qui va leur fournir internet, une des machines sera serveur web
 * Faire machine de supervision (pour savoir si l'exo a été réussi)
 
 * Liste des truc a installer pour les users/tache ansible :
-  * Ajouter utilisateur (eleve) avec mdp par defaut (eleve)
-  * vim
-  * Aller dans `/etc/ssh/ssh_config` et décommenter la ligne 25 ou ajouter ligne `PasswordAuthentication yes
-`
+  * ~~Ajouter utilisateur (eleve) avec mdp par defaut (eleve)~~
+  * ~~vim~~
+  * ~~Aller dans `/etc/ssh/sshd_config` et changer par `PasswordAuthentication yes
+` et `systemctl reload sshd`~~
   * Créer plusieurs interfaces réseaux et leur attribué une adresse + mask
