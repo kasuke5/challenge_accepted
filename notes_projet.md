@@ -85,3 +85,12 @@ Creation d'infrastructure en ligne pour chaque chapitre des cours réseaux d'ope
   * ~~Aller dans `/etc/ssh/sshd_config` et changer par `PasswordAuthentication yes
 ` et `systemctl reload sshd`~~
   * Créer plusieurs interfaces réseaux et leur attribué une adresse + mask
+
+---
+# Le tp à faire :
+* 1 machine serveur :
+  * Table de routage à faire
+  * Faire en sorte que la machine devienne routeur avec `echo 1 > /proc/sys/net/ipv4/ip_forward`
+  * Prendre les requêtes et donner l'accès à internet aux autres machines
+* 1 machine web sur son réseau
+* 1 autre machine sur son réseau différents des autres
