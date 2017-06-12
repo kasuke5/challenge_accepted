@@ -96,3 +96,11 @@ Creation d'infrastructure en ligne pour chaque chapitre des cours réseaux d'ope
   * Prendre les requêtes et donner l'accès à internet aux autres machines
 * 1 machine web sur son réseau
 * 1 autre machine sur son réseau différents des autres
+
+---
+# Changement car on avance pas
+## TP à faire pour IT2/3
+* Script pour vérifier DNS, dig @IP_Instance challenge-accepted.com (A/MX/NS)
+* Le tp sera de faire un DNS pour le nom de domaine challenge-accepted.com NS, MX et A
+* De base, création de la machine pour 48h, et bouton quand on s'approche de la fin pour redemander 48h, bouton pour detruire l'instance.
+* Pour l'instance, activer ICMP port web et SSH
