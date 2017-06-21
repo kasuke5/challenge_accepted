@@ -104,3 +104,6 @@ Creation d'infrastructure en ligne pour chaque chapitre des cours réseaux d'ope
 * Le tp sera de faire un DNS pour le nom de domaine challenge-accepted.com NS, MX et A
 * De base, création de la machine pour 48h, et bouton quand on s'approche de la fin pour redemander 48h, bouton pour detruire l'instance.
 * Pour l'instance, activer ICMP port web et SSH
+* A chaque demande d'exercice : 
+  * mkdir $pseudo cp terraform plan + ansible et executer script de test qu'on mettra dans le crontab. 
+  * Dans le script de destruction : enelever script dans crontab. MAJ BDD etat exercice.
